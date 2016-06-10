@@ -1,0 +1,33 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.doubleLine {
+	white-space: normal;
+	margin: 5px;
+	text-overflow: none;
+	overflow-wrap: break-word;
+	border-radius: 3px !important;
+}
+
+.customRadio {
+	font-size: 12pt;
+}
+
+.customRadio > input {
+	margin-left: 15px;
+}
+
+.compactRadio > div.radio-content > * {
+	padding: 10px;
+}
+
+.center {
+	position: absolute;
+	width: 100vw;
+	left: 0;
+	z-index: -1;
+}
+
+.pull-right {
+	float: right;
+}
+
